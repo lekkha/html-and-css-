@@ -4,3 +4,17 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* container */
+/* rem - (under relative length unit) relative to the font size of the root element */
+/* when rem is not used the spacing will remain the same but on zooming the font size will change creating 
+problems in the web page */
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin:auto;
+}
+
