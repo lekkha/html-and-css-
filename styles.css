@@ -1,0 +1,17 @@
+/* bdy is the nr text ; w/o any heading tags etc */
+body {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+/* will make component library part gray */
+#lib-header {
+    color: gray;
+}
