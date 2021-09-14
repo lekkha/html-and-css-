@@ -1,17 +1,6 @@
-/* bdy is the nr text ; w/o any heading tags etc */
-body {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    color: blue;
-}
-
-h2 {
-    color: green;
-}
-
-/* will make component library part gray */
-#lib-header {
-    color: gray;
-}
