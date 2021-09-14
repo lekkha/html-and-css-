@@ -1,16 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
 
+/* root element is the entire page */
+:root{
+    --primary-color: #F87171;
+
+}
+
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+hr {
+    margin: 2rem 0rem;
+}
+
 
 /* container */
 /* rem - (under relative length unit) relative to the font size of the root element */
 /* when rem is not used the spacing will remain the same but on zooming the font size will change creating 
 problems in the web page */
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1 rem;
 }
 
 .container-center{
@@ -18,3 +29,24 @@ problems in the web page */
     margin:auto;
 }
 
+/* links */
+/* links imp - 2 type primary and sec- have to define primary colour for website */
+/* VAR IS CSS VARIABLE HERE */
+
+.link {
+    /* to remove underline */
+    text-decoration: none;  
+    /* padding is done in the form top rt bot lt so here top and rt have been defined which automatically defines bottom and left aswell  */
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+/* look into BEM naming convention for css */
