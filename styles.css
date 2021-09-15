@@ -4,7 +4,8 @@
 /*define colors here cause if u want to change colors in future changing them here will reflect it on the page thus only 1 place u'll have to change   */
 :root{
     --primary-color: #F87171;
-    --dark-gray: #6B7280
+    --off-white: #F3F4F6;
+    --dark-gray: #4B5563;
 
 }
 
@@ -112,3 +113,19 @@ padding: 2rem;
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
+/* section */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+  
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
