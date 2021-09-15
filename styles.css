@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /* root element is the entire page */
+/*define colors here cause if u want to change colors in future changing them here will reflect it on the page thus only 1 place u'll have to change   */
 :root{
     --primary-color: #F87171;
+    --dark-gray: #6B7280
 
 }
 
@@ -87,4 +89,26 @@ problems in the web page */
 .navigation .link-active {
    font-weight: bold; 
 
+}
+
+/* header */
+
+.hero{
+padding: 2rem;
+
+}
+
+.hero .hero-img{
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
 }
