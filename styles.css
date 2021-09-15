@@ -38,10 +38,14 @@ problems in the web page */
 /* VAR IS CSS VARIABLE HERE */
 
 .link {
+    box-sizing: border-box;
     /* to remove underline */
     text-decoration: none;  
     /* padding is done in the form top rt bot lt so here top and rt have been defined which automatically defines bottom and left aswell  */
     padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1 rem; instead of box sizing*/
+
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -97,7 +101,7 @@ problems in the web page */
 
 .hero{
 padding: 2rem;
-
+padding-top: 5rem;
 }
 
 .hero .hero-img{
@@ -145,6 +149,11 @@ padding: 2rem;
     color: white;
 }
 
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+
+}
 .footer ul{
     padding-inline-start: 0px;
 }
